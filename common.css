@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+  font-family: 'Cabin', sans-serif;
+}
+body {
+  background: #fafafe;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 32px;
+}
+.nav-link ul {
+  display: flex;
+  align-items: center;
+}
+.nav-link li {
+  margin-right: 50px;
+}
+.logo img {
+  width: 114px;
+}
+/* .logo img{
+    width: 100%;
+} */
+.nav-link a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #030640;
+}
+.nav-link ul li a:hover,
+.nav-link ul li a:active {
+  color: #6200f0;
+}
+
+.nav-link li button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  width: 138px;
+  height: 56px;
+  left: 524px;
+  top: 0px;
+  background: #6200f0;
+  border-radius: 6px;
+}
+.moreinformation {
+  background: rgba(25, 29, 108, 0.9);
+  margin-top: 200px;
+  padding: 54px 135px 14px 135px;
+  background-image: url('images/Base.png');
+  mix-blend-mode: normal;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.quicklinks h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.quicklinks li a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.quicklinks ul {
+  margin-bottom: 54px;
+}
+.footer .quicklinks ul li {
+  margin-top: 14px;
+}
+.quicklinks h4 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.newsletter h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.newsletter input {
+  padding: 10px 12px;
+  width: 100%;
+  display: block;
+  background: #ffffff;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.newsletter button {
+  padding: 7px 31px;
+  background: #6200f0;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.contactus h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.newsletter h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.contactus h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.contactus h6 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 110px;
+}
+.socialmedia {
+  display: flex;
+  margin-bottom: 80px;
+}
+.socialmedia img {
+  width: 40px;
+  margin-right: 16px;
+}
+.terms {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.file_upload {
+  padding: 17px 20px;
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  position: relative;
+}
+.file_upload input {
+  position: absolute;
+  display: none;
+}
+.choose {
+  display: flex;
+  justify-content: space-between;
+  max-width: 401px;
+  width: 100%;
+}
+.choose h1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(3, 6, 64, 0.9);
+}
+.upload {
+  display: flex;
+  background: rgba(98, 0, 240, 0.06);
+  border-radius: 0px 8px 8px 0px;
+  padding-left: 21px;
+  padding-right: 17px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.upload h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #191d6c;
+  margin-top: 17px;
+}
+.upload h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 5px;
+  margin-top: 20px;
+  color: #191d6c;
+}
+/* input::placeholder{
+  color: rgba(3, 6, 64, 0.9);
+}
+input::placeholder::after{
+  color: #000;
+}
+textarea ::placeholder{
+ color: rgba(3, 6, 64, 0.3);
+} */
+.map {
+  max-width: 1423.01px;
+  margin: 0 auto;
+  position: absolute;
+  z-index: -1;
+  margin-top: 250px;
+}
+
+.map img {
+  width: 100%;
+}
+
+.body {
+  position: relative;
+}

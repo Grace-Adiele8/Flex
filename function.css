@@ -1,0 +1,161 @@
+.post-header {
+  max-width: 1170px;
+  display: flex;
+  margin-left: 135px;
+}
+/* .firsttext {
+  display: flex;
+  justify-content: space-between;
+} */
+.header p {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 65px;
+  color: #030640;
+  max-width: 841px;
+  margin-bottom: 50px;
+  margin-top: 106px;
+  margin-left: 135px;
+}
+.line {
+  border: 1px solid #6200f0;
+  max-width: 520px;
+  margin-bottom: 50px;
+}
+.platform h2 {
+  max-width: 490px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 50px;
+  color: #030640;
+}
+.platform p {
+  max-width: 490px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333333;
+  margin-bottom: 62px;
+}
+.platform button {
+  padding: 6px 22.76px 6px 40px;
+  background: #6200f0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 68px;
+  color: #ffffff;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+}
+.platform button span {
+  display: flex;
+  align-items: center;
+}
+.platform-picture {
+  max-width: 557px;
+  margin-left: 105px;
+}
+.functionalities-image {
+  max-width: 503px;
+  margin-right: 185px;
+}
+.functionalities {
+  max-width: 1116px;
+  margin-left: 135px;
+  margin-top: 260px;
+  display: flex;
+}
+.functionalities-text h2 {
+  max-width: 428px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #030640;
+  margin-top: 77px;
+}
+.functionalities-text p {
+  max-width: 371px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #333333;
+  margin-top: 16px;
+}
+.circle-text {
+  display: flex;
+  margin-top: 38px;
+}
+/* .functionalities-image img  {
+  border: 2px solid #6200f0;
+  box-shadow: -2px 16px 27px rgba(111, 118, 138, 0.1);
+  background: #ffffff;
+
+} */
+
+.circle-text p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #030640;
+}
+.featured-functionalities {
+  max-width: 1170px;
+  margin-left: 135px;
+  margin-top: 260px;
+  display: flex;
+}
+.ffunctionalities-image img {
+  margin-left: 222px;
+  width: 520px;
+  max-width: 520px;
+}
+.join-us {
+  margin-top: 260px;
+  max-width: 1170px;
+}
+.joinus p {
+  max-width: 437px;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+
+  color: #030640;
+  margin-left: 135px;
+}
+.card1 {
+  padding: 33px 28.5px 33px 28.5px;
+  background: #ffffff;
+  box-shadow: 5px 2px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-left: 499px;
+  margin-top: 50px;
+}
+.card1 img {
+  max-width: 48px;
+  margin-bottom: 20px;
+}
+.card1 h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+
+  color: #030640;
+  margin-bottom: 20px;
+}
+.card1 p {
+  max-width: 322px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333333;
+}
+

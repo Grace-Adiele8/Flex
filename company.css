@@ -1,0 +1,242 @@
+.hero {
+  max-width: 1408px;
+  padding: 157px 119px 0px 119px;
+  display: flex;
+  justify-content: space-between;
+}
+.herotext h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 68px;
+  color: #030640;
+  max-width: 464px;
+  margin-top: 107px;
+}
+.hero-image {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  max-width: 557px;
+  background-image: url(images/Hero\ Image.png);
+}
+.hero-image p {
+  padding: 195px 48px 48px 48px;
+}
+.dots {
+  display: flex;
+  margin-top: 20px;
+}
+.dots1 {
+  width: 7px;
+  height: 7px;
+  background: #6400f04d;
+  border-radius: 50px;
+  margin-right: 8px;
+}
+.subcription {
+  margin: 165px 135px 200px 135px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+}
+.subcription-text h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 57px;
+  color: #030640;
+  max-width: 546px;
+  margin-bottom: 32px;
+}
+.subimage {
+  max-width: 577px;
+}
+.subtext h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: #030640;
+  max-width: 493px;
+  margin-bottom: 40px;
+  margin-top: 286px;
+  margin-left: 100px;
+}
+.subtext p {
+  max-width: 439px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(51, 51, 51, 0.9);
+  margin-left: 100px;
+}
+.performance {
+  padding: 100px 135px 100px 135px;
+  background: #0c204c;
+}
+.how h2 {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 68px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.how p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  max-width: 401px;
+}
+.card1 {
+  background: #1a2d57;
+  border-radius: 10px;
+  padding: 24px 16px 24px 16px;
+  margin-bottom: 40px;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 56px;
+}
+
+.performance {
+  display: flex;
+  justify-content: space-between;
+}
+.card1 h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.card1 p {
+  max-width: 190px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-top: 16px;
+}
+.text1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: #030640;
+  border-radius: 6px;
+  background: #ffffff;
+  max-width: 150px;
+  position: absolute;
+  padding: 8.83px 39px 8.83px 39px;
+  left: 168px;
+  top: 337px;
+}
+.text2 {
+  border-radius: 6px;
+  background: #ffffff;
+  max-width: 150px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: #030640;
+  position: absolute;
+  padding: 8.83px 39px 8.83px 39px;
+  top: 208.56px;
+  left: -25px;
+}
+
+.how-image {
+  position: relative;
+}
+
+.image {
+  border: 10px solid rgba(241, 250, 255, 0.06);
+}
+.how-image ::after {
+  width: 507px;
+  height: 418px;
+  position: absolute;
+  z-index: -1;
+  background: rgba(241, 250, 255, 0.06);
+  backdrop-filter: blur(164px);
+  left: 25px;
+  display: block;
+}
+.people {
+  max-width: 1169px;
+  margin: 69px 136px 220px 135px;
+}
+.people-text h2 {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 65px;
+  color: #030640;
+  margin-bottom: 12px;
+}
+.people-text h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.9);
+  max-width: 833px;
+}
+.people-picture {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 92px;
+}
+.people-picture0 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 220px;
+}
+.peoplepicture2 {
+  margin-top: 193px;
+  margin-bottom: 155px;
+}
+.peoplepicture4 {
+  margin-left: 195px;
+}
+.peoplepicture5 {
+  margin-right: 243px;
+}
+.people h1 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: #030640;
+  text-align: center;
+}
+.people p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.86);
+}
+.people-gathering {
+  padding-top: 156px;
+  background: #0c204c;
+  padding-bottom: 154px;
+}
+.people_image {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.image1 {
+  width: 1120px;
+  background: linear-gradient(180deg, #cec7d7 0%, rgba(35, 35, 64, 0.9) 100%);
+  height: 461px;
+  margin: 0 49px;
+  flex-shrink: 0;
+}
+.image1:nth-child(2){
+  background: url(./images/Family.png);
+}
+.people-gathering {
+  margin-bottom: 180px;
+}

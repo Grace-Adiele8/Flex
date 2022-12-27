@@ -1,0 +1,181 @@
+.hero1 {
+  max-width: 1170px;
+  margin: 0% auto;
+  margin-top: 133px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+.dots1 {
+  display: flex;
+  max-width: 184px;
+  background: #6400f04d;
+  height: 7px;
+  width: 7px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-right: 8px;
+}
+.dots {
+  display: flex;
+}
+.herotext h2 {
+  max-width: 464px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 68px;
+  color: #030640;
+}
+.integration {
+  margin: 98px 136px 0px 135px;
+  display: flex;
+}
+.part1 {
+  display: flex;
+}
+.dots2 {
+  background: #6200f0;
+  width: 3px;
+  height: 43px;
+  margin-right: 20px;
+}
+.part h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #6200f0;
+  margin-bottom: 35px;
+}
+.part1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(51, 51, 51, 0.9);
+  max-width: 410px;
+  margin-bottom: 51px;
+  margin-left: 20px;
+}
+.part h2 {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 50px;
+  color: #030640;
+  max-width: 499px;
+}
+.part2 h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(51, 51, 51, 0.9);
+  max-width: 567px;
+}
+.part2 h4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(51, 51, 51, 0.9);
+  max-width: 567px;
+  margin-top: 32px;
+}
+.part2 {
+  margin-left: 169px;
+}
+.ready {
+  max-width: 666px;
+  margin: 0% auto;
+}
+
+.format {
+  max-width: 1000px;
+  margin: 0px auto;
+  background: #ffffff;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  padding: 64px 104px 59px 64px;
+  margin-bottom: 210px;
+}
+.form-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.form label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #030640;
+  display: block;
+  margin-bottom: 15px;
+}
+.form input {
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: block;
+  color: rgba(3, 6, 64, 0.26);
+  max-width: 401px;
+  padding: 17px 0px 20px 20px;
+  width: 100%;
+}
+
+.form_name label {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 15px;
+  color: #030640;
+  display: block;
+}
+.form_name textarea {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(3, 6, 64, 0.26);
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  padding: 17px 0px 101px 20px;
+  max-width: 832px;
+  width: 100%;
+}
+.ready {
+  margin-bottom: 210px;
+  max-width: 1000px;
+}
+
+.ready h2 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 37px;
+  line-height: 65px;
+  color: #030640;
+  margin-top: 276px;
+  margin-bottom: 50px;
+}
+.form_name p {
+  max-width: 417px;
+  margin-top: 16px;
+  margin-bottom: 27px;
+}
+.form_name button {
+  background: #6200f0;
+  border-radius: 6px;
+  padding: 18px 52.84px 19px 62px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.form_name span {
+  width: 14px;
+  margin-right: 16.16px;
+}

@@ -1,0 +1,36 @@
+.header_text {
+  text-align: center;
+}
+.header_text h2 {
+  margin-top: 103px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 72px;
+  color: #030640;
+}
+.conditions {
+  max-width: 910px;
+  margin: 0 auto;
+  margin-top: 43px;
+  padding: 46px 24px 43px 24px;
+  background: #ffffff;
+  box-shadow: 0px 16px 81px rgba(111, 118, 138, 0.1);
+  border-radius: 16px;
+  margin-bottom: 200px;
+}
+.conditions_1 {
+  max-width: 698px;
+  margin-bottom: 40px;
+}
+.conditions h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #030640;
+}
+.conditions p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #030640;
+}
